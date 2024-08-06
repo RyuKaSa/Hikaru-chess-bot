@@ -1,7 +1,3 @@
-Sure, here's a comprehensive README for your project. This README includes instructions for building the Stockfish engine, running the project, and customizing the model for different players.
-
----
-
 # Hikaru Chess Model
 
 This project builds a chess model based on Hikaru Nakamura's games. The model can analyze and predict moves and has an estimated Elo rating of 1500, verified by Stockfish. Users can customize this model to include games from other players, combinations of players, or any other custom data.
@@ -67,11 +63,7 @@ stockfish_path = "/path/to/your/stockfish/stockfish"
 
 ### Fetch and Process Games
 
-Run the provided Jupyter notebook to fetch, process, and analyze the chess games:
-
-```bash
-jupyter notebook main.ipynb
-```
+Run the provided Jupyter notebook to fetch, process, and analyze the chess games.
 
 ### Training the Model
 
@@ -82,6 +74,9 @@ The notebook includes steps to train a neural network based on Hikaru Nakamura's
 The model is evaluated using Stockfish to estimate its Elo rating. You can use the provided functions to play games against Stockfish and calculate the Elo rating.
 
 ## Customization
+
+You can customize the model by modifying the data fetching, processing, and training steps.
+Try fetching games from different players, combining games from multiple players, or training a custom model based on your own dataset.
 
 ### Using Different Players
 
@@ -109,13 +104,9 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contributing
 
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
+Contributions are welcome!
 
 ## Acknowledgments
 
 - Thanks to Chess.com for providing the game data.
 - Thanks to the Stockfish developers for their powerful chess engine.
-
----
-
-Feel free to customize the above README with any additional details or specific instructions relevant to your project.
